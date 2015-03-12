@@ -1,0 +1,33 @@
+{
+  "name": "npmexclude",
+  "version": "0.4.0",
+  "description": "Exclude modules from npm install and npm update",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Benjamin Lane",
+    "email": "balane3@ncsu.edu",
+    "url": "benlane.me"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/balane3/npmexclude"
+  },
+  "bugs": {
+      "url": "https://github.com/balane3/npmexclude/issues",
+      "email": "balane3@ncsu.edu"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.1.2",
+    "mv": "^2.0.3",
+    "q": "^1.2.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "npmexclude": "index.js"
+  },
+  "readmeFilename": "README.md"
+}
