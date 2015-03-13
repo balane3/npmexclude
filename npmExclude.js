@@ -1,5 +1,10 @@
 'use strict';
 
+// TODO:
+// - npm update modifies the version numbers, you overwrite that when restoring the file
+// - get module folder from npm?
+// - better usage message
+
 var os = require('os');
 var fs = require('fs');
 var path = require('path');

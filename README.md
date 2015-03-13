@@ -1,3 +1,10 @@
+### Oh... so that's how `npm install` works
+---
+I made this tool because I was under the assumption that `npm install` and `npm update` would not install any of the modules if one of them failed. This assumption is incorrect; apparently I didn't pay enough attention. I suppose this tool could still be useful if you wanted to suppress the error messages, but redirecting stdout and stderr would be more effective.
+
+Though the tool isn't worth much, it was an educational experience escaping from callback hell and implementing promises using Q. Thus, while I unpublished the module from the NPM registry, I'm leaving the code here for later reference.
+
+
 # npmexclude
 --------------
 A tool to exclude certain modules from `npm install` and `npm update`. 
